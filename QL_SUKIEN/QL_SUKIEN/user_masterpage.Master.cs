@@ -33,5 +33,9 @@ namespace QL_SUKIEN
         {
             Server.Transfer("user_chittietsk_new.aspx");
         }
+        protected void dx(object sender, EventArgs e)
+        {
+            Server.Transfer("select.aspx");
+        }
     }
 }

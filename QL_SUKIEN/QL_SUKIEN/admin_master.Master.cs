@@ -28,5 +28,10 @@ namespace QL_SUKIEN
         {
             Server.Transfer("admin_themsk.aspx");
         }
+
+        protected void dx(object sender, EventArgs e)
+        {
+            Server.Transfer("select.aspx");
+        }
     }
 }

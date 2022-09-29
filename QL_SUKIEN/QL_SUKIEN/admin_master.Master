@@ -48,6 +48,7 @@
                         <li><asp:LinkButton ID="danhsachsukien" runat="server" ForeColor="White" OnClick="danhsachsukien_Click">DANH SÁCH SỰ KIỆN</asp:LinkButton></li>
                         <li><asp:LinkButton ID="danhsachnguoidangky" runat="server" ForeColor="White" OnClick="danhsachnguoidangky_Click">DANH SÁCH NGƯỜI ĐĂNG KÝ</asp:LinkButton></li>
                         <li><asp:LinkButton ID="themsukien" runat="server" ForeColor="White" OnClick="themsukien_Click">THÊM SỰ KIỆN</asp:LinkButton></li>
+                        <li><asp:LinkButton ID="dangxuat" runat="server" ForeColor="White" OnClick="dx">ĐĂNG XUẤT</asp:LinkButton></li>
                     </ul>
                 </div>
             </div>

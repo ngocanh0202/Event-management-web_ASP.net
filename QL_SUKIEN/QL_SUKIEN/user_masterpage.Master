@@ -50,6 +50,7 @@
                         <li><asp:LinkButton ID="danhsachsukien" runat="server" ForeColor="White" OnClick="danhsachsukien_Click">DANH SÁCH SƯ KIỆN</asp:LinkButton></li>
                         <li><asp:LinkButton ID="sukiendangky" runat="server" ForeColor="White" OnClick="sukiendangky_Click">LỊCH SỬ SỰ KIỆN ĐĂNG KÝ</asp:LinkButton></li>
                         <li><asp:LinkButton ID="LinkButton1" runat="server" ForeColor="White" OnClick="LinkButton1_Click">THÔNG TIN SỰ KIỆN ĐĂNG KÝ </asp:LinkButton></li>
+                        <li><asp:LinkButton ID="dangxuat" runat="server" ForeColor="White" OnClick="dx">ĐĂNG XUẤT</asp:LinkButton></li>
                     </ul>
                 </div>
             </div>

@@ -1,0 +1,62 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="user_masterpage.master.cs" Inherits="QL_SUKIEN.user_masterpage" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <link href="content/bootstrap.min.css" rel="stylesheet" />
+    <link href="owlcarousel/assets/owl.carousel.min.css" rel="stylesheet" />
+    <link href="owlcarousel/assets/owl.theme.default.min.css" rel="stylesheet" />
+    <script src="jquery.min.js"></script>
+    <script src="owlcarousel/owl.carousel.min.js"></script>
+    <link href="content/bootstrap.min.css" rel="stylesheet" />
+    <style>
+        .banner{
+            background: #0066ff;
+            display: flex;
+            padding: 10px;
+            height: 45px;
+        }
+        .logo span{
+            font-size: 18px;
+            color:white;
+            margin-left:10px
+        }
+        .links{
+            margin-left:auto;
+        }
+        .links li{
+            list-style:none;
+            display:inline-block;
+            margin-right:5px;
+            padding-right: 5px;
+            border-right:1px solid white;
+        }
+    </style>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div class="container">
+            <div class="banner">
+                <div class="logo">
+                    <span>CÔNG TY ABC</span>
+                </div>
+                <div class="links">
+                    <ul>
+                        <li><asp:LinkButton ID="thongtintaikhoan" runat="server" ForeColor="White" OnClick="thongtintaikhoan_Click">THÔNG TIN TÀI KHOẢN</asp:LinkButton></li>
+                        <li><asp:LinkButton ID="danhsachsukien" runat="server" ForeColor="White" OnClick="danhsachsukien_Click">DANH SÁCH SƯ KIỆN</asp:LinkButton></li>
+                        <li><asp:LinkButton ID="sukiendangky" runat="server" ForeColor="White" OnClick="sukiendangky_Click">LỊCH SỬ SỰ KIỆN ĐĂNG KÝ</asp:LinkButton></li>
+                        <li><asp:LinkButton ID="LinkButton1" runat="server" ForeColor="White" OnClick="LinkButton1_Click">THÔNG TIN SỰ KIỆN ĐĂNG KÝ </asp:LinkButton></li>
+                    </ul>
+                </div>
+            </div>
+            <div>
+                <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server"></asp:ContentPlaceHolder>
+            </div>
+        </div>
+    </form>
+</body>
+</html>

@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="select.aspx.cs" Inherits="QL_SUKIEN.WebForm2" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="index.aspx.cs" Inherits="QL_SUKIEN.WebForm2" %>
 
 <!DOCTYPE html>
 

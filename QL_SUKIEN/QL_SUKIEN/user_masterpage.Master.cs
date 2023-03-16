@@ -35,7 +35,7 @@ namespace QL_SUKIEN
         }
         protected void dx(object sender, EventArgs e)
         {
-            Server.Transfer("select.aspx");
+            Server.Transfer("index.aspx");
         }
     }
 }

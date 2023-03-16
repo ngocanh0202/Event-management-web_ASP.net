@@ -147,7 +147,7 @@
     <Content Include="owlcarousel\README.md" />
     <Content Include="admin_master.Master" />
     <Content Include="admin_themsk.aspx" />
-    <Content Include="select.aspx" />
+    <Content Include="index.aspx" />
     <None Include="Scripts\jquery-3.4.1.intellisense.js" />
     <Content Include="img\a.png" />
     <Content Include="owlcarousel\owl.carousel.js" />
@@ -286,12 +286,12 @@
     <Compile Include="user_signin.aspx.designer.cs">
       <DependentUpon>user_signin.aspx</DependentUpon>
     </Compile>
-    <Compile Include="select.aspx.cs">
-      <DependentUpon>select.aspx</DependentUpon>
+    <Compile Include="index.aspx.cs">
+      <DependentUpon>index.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="select.aspx.designer.cs">
-      <DependentUpon>select.aspx</DependentUpon>
+    <Compile Include="index.aspx.designer.cs">
+      <DependentUpon>index.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup />
